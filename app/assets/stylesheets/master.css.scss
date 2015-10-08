@@ -53,11 +53,25 @@ hr {
 
 h1 {
 	font-family: 'colaborate-regularregular', sans-serif;
+	font-style:italic;
 	font-size: 45px;
 }
 
 h2 {
 	font-family: 'colaboratelightregular', sans-serif;
-	font-style:italic;
 	font-size: 33px;
+}
+
+.next-quote {
+	color:#22ABAB;
+	font-family: 'colaboratelightregular', sans-serif;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.footer-blurb {
+	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+	font-style: italic;
+	text-align: right;
+	font-size: 15px;
 }

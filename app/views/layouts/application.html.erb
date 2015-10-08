@@ -23,13 +23,25 @@
 		</div>
 		<div class="col-xs-5 links">
 			<%= link_to 'Contribute', '#' %>
-			<br />
 			<%= link_to 'About', '#' %>
 	</header>
 	<hr />
 	<br class="clear" />
 
-<%= yield %>
+	<div class="container">
+		<%= yield %>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="col-xs-6">
+				<%= link_to "more somethings, please.", "#", :class => 'next-quote' %>
+			</div>
+			<div class="col-xs-6 footer-blurb">
+				imagineered in Boston, MA by Jo
+			</div>
+		</div>
+	</div
 
 </body>
 </html>
