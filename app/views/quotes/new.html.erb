@@ -1,0 +1,9 @@
+<h1>What gives you inspiration?</h1>
+<%= simple_form_for @quote do |f| %>
+	<%= f.input :saying %>
+	<br />
+	<%= f.input :author %>
+	<br />
+	<br />
+	<%= f.submit 'Create', :class => 'btn btn-info' %>
+<% end %>

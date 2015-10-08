@@ -46,3 +46,6 @@ end
 
 #splurty/7 addition - include bootstrap
 gem 'bootstrap-sass', '~> 3.3.4'
+
+#splurt12 addition - include simple form
+gem 'simple_form'
