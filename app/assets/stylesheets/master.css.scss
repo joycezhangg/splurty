@@ -25,7 +25,7 @@
 .slogan {
 	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 	font-style: italic;
-	padding-top: 26px;
+	padding-top: 30px;
 }
 
 .links {
@@ -34,8 +34,10 @@
 
 .links a {
 	color:black;
+	font-family: 'colaborate-regularregular', sans-serif;
 	font-size: 20px;
 	border-bottom: 1px solid #dfdfdf;
+	font-style:bold;
 }
 
 header {
@@ -44,7 +46,18 @@ header {
 
 hr {
 	clear:both;
-	height: 3px;
+	height: 1px;
 	background-color: #222222;
 	border: 0px;
+}
+
+h1 {
+	font-family: 'colaborate-regularregular', sans-serif;
+	font-size: 45px;
+}
+
+h2 {
+	font-family: 'colaboratelightregular', sans-serif;
+	font-style:italic;
+	font-size: 33px;
 }
