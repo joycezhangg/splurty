@@ -26,6 +26,7 @@
 	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 	font-style: italic;
 	padding-top: 30px;
+	color: #22ABAB;
 }
 
 .links {
@@ -82,4 +83,23 @@ h2 {
 
 .about {
 	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+@media (max-width: 750px) {
+	.footer-blurb {
+		text-align: left;
+	}
+}
+
+.modal {
+		font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+	}
+
+h2 span {
+	font-family: 'colaborate-regularregular', sans-serif;
+	color: #dddddd;
+}
+
+::selection {
+	background-color: #22ABAB;
 }
