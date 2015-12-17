@@ -52,3 +52,6 @@ gem 'simple_form'
 
 #TDD5 include factory girl
 gem "factory_girl_rails", "~> 4.0"
+
+#devise for user authentication
+gem 'devise', '>=3.2.4'
