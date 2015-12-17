@@ -9,8 +9,8 @@ class QuoteTest < ActiveSupport::TestCase
     assert_equal expected, actual
   end
 
-  test "unique_tag_when_author_multiple_words" do
-  	quote = FactoryGirl.create(:quote, :author => "Henry Thoreau")
-  	expected = "HT#"
+  # test "unique_tag_when_author_multiple_words" do
+  # 	quote = FactoryGirl.create(:quote, :author => "Henry Thoreau")
+  # 	expected = "HT#"
   	
 end
