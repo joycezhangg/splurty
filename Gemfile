@@ -49,3 +49,6 @@ gem 'bootstrap-sass', '~> 3.3.4'
 
 #splurt12 addition - include simple form
 gem 'simple_form'
+
+#TDD5 include factory girl
+gem "factory_girl_rails", "~> 4.0"
